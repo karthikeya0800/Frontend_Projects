@@ -1,4 +1,6 @@
 body{
+    width: 300px;
+    padding: 20%;
     font-family: cursive;
     text-align: center;
     font-weight: none;
@@ -69,4 +71,12 @@ input::-webkit-input-placeholder{
     opacity: 0.5;
     font-weight: 500;
     font-style: italic;
+}
+
+.title{
+    margin-left: 80px;
+    padding: 10px;
+    border: 2px solid white;
+    width: fit-content;
+    text-align: right;
 }
