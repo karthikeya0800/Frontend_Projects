@@ -1,0 +1,19 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <form>
+            <p>Enter a Number : <input type="number" placeholder="input1" onfocus="this.placeholder=''" step="0.001" id="num1-el"></p>
+            <p>Enter another Number : <input type="number" placeholder="input2" onfocus="this.placeholder=''" step="0.001" id="num2-el"></p>
+        </form>
+        <br>
+        <button id ="add-btn" onclick="add()">Add</button>
+        <button id ="sub-btn" onclick="subtract()">Subtract</button>
+        <button id ="mul-btn" onclick="multiply()">Multiply</button>
+        <button id ="div-btn" onclick="divide()">Divide</button>
+        <br>
+        <p>Result : <span id="res-el"></span></p>
+        <script src="index.js"></script>
+    </body>
+</html>

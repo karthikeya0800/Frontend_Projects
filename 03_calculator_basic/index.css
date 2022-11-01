@@ -1,0 +1,72 @@
+body{
+    font-family: cursive;
+    text-align: center;
+    font-weight: none;
+    background: black;
+    -webkit-text-fill-color: white
+}
+
+button{
+    border-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: cursive;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:focus{
+    outline: 0px;
+}
+
+#add-btn{
+    background: black;
+}
+
+#sub-btn{
+    background: black
+}
+
+#mul-btn{
+    background: black
+}
+
+#div-btn{
+    background: black
+}
+
+#num1-el{
+    caret-color: white;
+    padding: 3px;
+    text-align: center;
+    background: black;
+    border-color: white;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#num2-el{
+    caret-color: white;
+    padding: 3px;
+    width: 100px;
+    text-align: center;
+    background: black;
+    border-color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#num1-el:focus{
+    outline: 0px;
+}
+
+#num2-el:focus{
+    outline: 0px;
+}
+
+input::-webkit-input-placeholder{
+    opacity: 0.5;
+    font-weight: 500;
+    font-style: italic;
+}
